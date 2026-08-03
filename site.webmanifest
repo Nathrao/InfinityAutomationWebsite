@@ -1,0 +1,10 @@
+{
+  "name": "Infinity Automation & Engineering",
+  "short_name": "Infinity Automation",
+  "description": "Industrial Automation and Intelligent Digital Solutions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F7FA",
+  "theme_color": "#0B3C5D",
+  "icons": []
+}
