@@ -1,1070 +1,528 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Products | Infinity Automation & Engineering</title>
-    <meta
-      name="description"
-      content="Precision roller chains, conveyor systems, vibratory bowl feeders, fabrication, laser cutting and bending solutions from Infinity Automation & Engineering."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-      .product-img {
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-        border-radius: 8px 8px 0 0;
-        background: #e8eef3;
-      }
-      .card.has-img {
-        padding: 0;
-        overflow: hidden;
-      }
-      .card.has-img .card-body {
-        padding: 20px 24px 24px;
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-      }
-      .card.has-img h3 {
-        margin-bottom: 8px;
-      }
-      .card.has-img p {
-        flex-grow: 1;
-      }
-      .feature-img {
-        width: 100%;
-        max-height: 340px;
-        object-fit: cover;
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
-      }
-    </style>
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a
-          href="index.html"
-          class="logo"
-          aria-label="Infinity Automation & Engineering Home"
-        >
-          <span class="logo-mark" aria-hidden="true">∞</span>
-          <span>Infinity Automation</span>
-        </a>
-        <nav class="nav-desktop" aria-label="Main navigation">
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-          <a href="products.html" class="active">Products</a>
-          <a href="software.html">Software</a>
-          <a href="industries.html">Industries</a>
-          <a href="careers.html">Careers</a>
-          <a href="contact.html" class="btn btn-primary">Contact Us</a>
-        </nav>
-        <button
-          class="nav-toggle"
-          aria-label="Open menu"
-          aria-expanded="false"
-          aria-controls="mobile-nav"
-        >
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-      <nav id="mobile-nav" class="nav-mobile" aria-label="Mobile navigation">
-        <a href="index.html">Home</a><a href="about.html">About</a
-        ><a href="services.html">Services</a>
-        <a href="products.html">Products</a><a href="software.html">Software</a
-        <a href="industries.html">Industries</a
-        ><a href="careers.html">Careers</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | Infinity Automation & Engineering</title>
+  <meta name="description" content="Precision roller chains, conveyor systems, vibratory bowl feeders, fabrication, laser cutting and bending solutions from Infinity Automation & Engineering.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    .product-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+      background: #e8eef3;
+    }
+    .card.has-img {
+      padding: 0;
+      overflow: hidden;
+    }
+    .card.has-img .card-body {
+      padding: 20px 24px 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .card.has-img h3 { margin-bottom: 8px; }
+    .card.has-img p { flex-grow: 1; }
+    .feature-img {
+      width: 100%;
+      max-height: 340px;
+      object-fit: cover;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Infinity Automation & Engineering Home">
+        <span class="logo-mark" aria-hidden="true">∞</span>
+        <span>Infinity Automation & Engineering</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="software.html">Software</a>
+        <a href="projects.html">Projects</a>
+        <a href="industries.html">Industries</a>
+        <a href="careers.html">Careers</a>
         <a href="contact.html" class="btn btn-primary">Contact Us</a>
       </nav>
-    </header>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav id="mobile-nav" class="nav-mobile" aria-label="Mobile navigation">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+      <a href="products.html">Products</a><a href="software.html">Software</a><a href="projects.html">Projects</a>
+      <a href="industries.html">Industries</a><a href="careers.html">Careers</a>
+      <a href="contact.html" class="btn btn-primary">Contact Us</a>
+    </nav>
+  </header>
 
-    <main id="main-content">
-      <section class="page-hero">
-        <div class="container">
-          <h1>Our Products</h1>
-          <p>
-            Automation, Conveyor System, Vibrator Bowl Feeder &amp; Fabrication
-            — manufacturing, exporting and wholesaling industrial
-            material-handling products.
-          </p>
-        </div>
-      </section>
-
-      <section class="section bg-white">
-        <div class="container">
-          <div class="section-header">
-            <h2>Product Range</h2>
-            <p>
-              Automation, Conveyor System, Vibrator Bowl Feeder &amp;
-              Fabrication — we are involved in manufacturing, exporting and
-              wholesaling a wide array of industrial products. Our range is
-              manufactured using excellent quality raw material in compliance
-              with international quality standards, and is acknowledged for
-              sturdy construction, optimum performance and resistance against
-              corrosion.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" style="padding-top: 0; padding-bottom: 24px">
-        <div class="container">
-          <div class="grid-4">
-            <a
-              href="#chain-specs"
-              class="card text-center"
-              style="text-decoration: none; color: inherit; padding: 20px"
-            >
-              <div class="card-icon" style="margin: 0 auto 10px">
-                <span class="icon-emoji">🔗</span>
-              </div>
-              <h3 style="font-size: 1rem">Conveyor Chains</h3>
-            </a>
-            <a
-              href="#automation"
-              class="card text-center"
-              style="text-decoration: none; color: inherit; padding: 20px"
-            >
-              <div class="card-icon" style="margin: 0 auto 10px">
-                <span class="icon-emoji">⚙️</span>
-              </div>
-              <h3 style="font-size: 1rem">Automation</h3>
-            </a>
-            <a
-              href="contact.html"
-              class="card text-center"
-              style="text-decoration: none; color: inherit; padding: 20px"
-            >
-              <div class="card-icon" style="margin: 0 auto 10px">
-                <span class="icon-emoji">🥣</span>
-              </div>
-              <h3 style="font-size: 1rem">Bowl Feeders</h3>
-            </a>
-            <a
-              href="#metal-fabrication"
-              class="card text-center"
-              style="text-decoration: none; color: inherit; padding: 20px"
-            >
-              <div class="card-icon" style="margin: 0 auto 10px">
-                <span class="icon-emoji">🏭</span>
-              </div>
-              <h3 style="font-size: 1rem">Metal Fabrication</h3>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Conveyor Chains & Belts -->
-      <section class="section">
-        <div class="container">
-          <h2 style="margin-bottom: 12px">Conveyor System</h2>
-          <p style="margin-bottom: 32px; max-width: 900px">
-            We are involved in the business of manufacturing, exporting and
-            wholesaling a wide array of conveyor products. The range offered by
-            us encompasses Standardized Precision Roller Chains, Designed
-            Special Purpose Conveyor Chain, Slat Band Chains, Flat Belt
-            Conveyor, Trough Conveyors and Flat Food Belts. In addition,
-            customers can avail from us a wide range of Gravity Roller Conveyor,
-            Powered Roller Conveyors, Belt Type Bucket Elevator and many more.
-            These products are manufactured using excellent quality raw material
-            in compliance with international quality standards, and are
-            acknowledged for sturdy construction, optimum performance and
-            resistance against corrosion.
-          </p>
-          <div class="grid-3">
-            <article class="card has-img">
-              <img
-                class="product-img"
-                src="assets/images/conveyor-belt.jpg"
-                width="400"
-                height="180"
-                alt="Industrial conveyor belt system"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Standardized Precision Roller Chains</h3>
-                <p>
-                  High-quality precision roller chains designed for consistent
-                  performance and long service life in demanding applications.
-                </p>
-                <a href="contact.html" class="card-link">Enquire →</a>
-              </div>
-            </article>
-            <article class="card has-img">
-              <img
-                class="product-img"
-                src="assets/images/factory-automation.jpg"
-                width="400"
-                height="180"
-                alt="Factory automation equipment"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Special Purpose Conveyor Chains</h3>
-                <p>
-                  Custom-designed conveyor chains built for specific process
-                  requirements and operating conditions.
-                </p>
-                <a href="contact.html" class="card-link">Enquire →</a>
-              </div>
-            </article>
-            <article class="card has-img">
-              <img
-                class="product-img"
-                src="assets/images/logistics-conveyor.jpg"
-                width="400"
-                height="180"
-                alt="Logistics conveyor system"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Slat Band Chains</h3>
-                <p>
-                  Durable slat band chains suitable for a wide range of
-                  conveying and accumulation applications.
-                </p>
-                <a href="contact.html" class="card-link">Enquire →</a>
-              </div>
-            </article>
-            <article class="card has-img">
-              <img
-                class="product-img"
-                src="assets/images/warehouse-conveyor.jpg"
-                width="400"
-                height="180"
-                alt="Warehouse flat belt conveyor"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Flat Belt Conveyors</h3>
-                <p>
-                  Versatile flat belt conveyor systems for smooth product
-                  transfer across production lines.
-                </p>
-                <a href="contact.html" class="card-link">Enquire →</a>
-              </div>
-            </article>
-            <article class="card has-img">
-              <img
-                class="product-img"
-                src="assets/images/industrial-machine.jpg"
-                width="400"
-                height="180"
-                alt="Industrial material handling machine"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Trough Conveyors</h3>
-                <p>
-                  Trough belt conveyors engineered for bulk material handling
-                  with reliable containment and flow.
-                </p>
-                <a href="contact.html" class="card-link">Enquire →</a>
-              </div>
-            </article>
-            <article class="card has-img">
-              <img
-                class="product-img"
-                src="assets/images/factory-floor.jpg"
-                width="400"
-                height="180"
-                alt="Food processing conveyor line"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Flat Food Belts</h3>
-                <p>
-                  Food-grade flat belts designed for hygienic conveying in food
-                  and beverage processing environments.
-                </p>
-                <a href="contact.html" class="card-link">Enquire →</a>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Conveyor Chain Specifications -->
-      <section class="section bg-white" id="chain-specs">
-        <div class="container">
-          <div class="section-header">
-            <h2>Conveyor Chain Specifications</h2>
-            <p>
-              Standardized precision roller chains are supplied to common
-              industry standards. Special-purpose and slat-band chains are
-              engineered to application requirements. Final selection depends on
-              load, speed, environment and attachment needs — contact us for
-              exact datasheets.
-            </p>
-          </div>
-
-          <h3 style="margin-bottom: 16px">
-            Precision Roller Chains (Typical ANSI / ISO sizes)
-          </h3>
-          <div style="overflow-x: auto; margin-bottom: 32px">
-            <table
-              style="
-                width: 100%;
-                border-collapse: collapse;
-                font-size: 0.9rem;
-                min-width: 640px;
-              "
-            >
-              <thead>
-                <tr style="background: #0b3c5d; color: #fff">
-                  <th style="padding: 12px 10px; text-align: left">
-                    Chain No.
-                  </th>
-                  <th style="padding: 12px 10px; text-align: left">Pitch</th>
-                  <th style="padding: 12px 10px; text-align: left">
-                    Roller Dia.
-                  </th>
-                  <th style="padding: 12px 10px; text-align: left">
-                    Inner Width
-                  </th>
-                  <th style="padding: 12px 10px; text-align: left">Pin Dia.</th>
-                  <th style="padding: 12px 10px; text-align: left">
-                    Min. Tensile Strength*
-                  </th>
-                  <th style="padding: 12px 10px; text-align: left">
-                    Typical Use
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr style="border-bottom: 1px solid #e1e5eb">
-                  <td style="padding: 10px">40 / 08A</td>
-                  <td style="padding: 10px">12.70 mm (0.500")</td>
-                  <td style="padding: 10px">7.95 mm</td>
-                  <td style="padding: 10px">7.85 mm</td>
-                  <td style="padding: 10px">3.96 mm</td>
-                  <td style="padding: 10px">≈ 14 kN (3,100 lbf)</td>
-                  <td style="padding: 10px">Light conveyors, packaging</td>
-                </tr>
-                <tr
-                  style="border-bottom: 1px solid #e1e5eb; background: #f5f7fa"
-                >
-                  <td style="padding: 10px">50 / 10A</td>
-                  <td style="padding: 10px">15.875 mm (0.625")</td>
-                  <td style="padding: 10px">10.16 mm</td>
-                  <td style="padding: 10px">9.40 mm</td>
-                  <td style="padding: 10px">5.08 mm</td>
-                  <td style="padding: 10px">≈ 22 kN (4,900 lbf)</td>
-                  <td style="padding: 10px">General industrial conveyors</td>
-                </tr>
-                <tr style="border-bottom: 1px solid #e1e5eb">
-                  <td style="padding: 10px">60 / 12A</td>
-                  <td style="padding: 10px">19.05 mm (0.750")</td>
-                  <td style="padding: 10px">11.91 mm</td>
-                  <td style="padding: 10px">12.57 mm</td>
-                  <td style="padding: 10px">5.94 mm</td>
-                  <td style="padding: 10px">≈ 31 kN (7,000 lbf)</td>
-                  <td style="padding: 10px">Heavier conveyors, elevators</td>
-                </tr>
-                <tr
-                  style="border-bottom: 1px solid #e1e5eb; background: #f5f7fa"
-                >
-                  <td style="padding: 10px">80 / 16A</td>
-                  <td style="padding: 10px">25.40 mm (1.000")</td>
-                  <td style="padding: 10px">15.88 mm</td>
-                  <td style="padding: 10px">15.75 mm</td>
-                  <td style="padding: 10px">7.92 mm</td>
-                  <td style="padding: 10px">≈ 56 kN (12,500 lbf)</td>
-                  <td style="padding: 10px">Heavy-duty conveying</td>
-                </tr>
-                <tr style="border-bottom: 1px solid #e1e5eb">
-                  <td style="padding: 10px">100 / 20A</td>
-                  <td style="padding: 10px">31.75 mm (1.250")</td>
-                  <td style="padding: 10px">19.05 mm</td>
-                  <td style="padding: 10px">18.90 mm</td>
-                  <td style="padding: 10px">9.53 mm</td>
-                  <td style="padding: 10px">≈ 87 kN (19,500 lbf)</td>
-                  <td style="padding: 10px">High-load industrial lines</td>
-                </tr>
-                <tr style="background: #f5f7fa">
-                  <td style="padding: 10px">120 / 24A</td>
-                  <td style="padding: 10px">38.10 mm (1.500")</td>
-                  <td style="padding: 10px">22.23 mm</td>
-                  <td style="padding: 10px">25.22 mm</td>
-                  <td style="padding: 10px">11.10 mm</td>
-                  <td style="padding: 10px">≈ 125 kN (28,100 lbf)</td>
-                  <td style="padding: 10px">Very heavy conveying</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <p
-            style="
-              font-size: 0.85rem;
-              color: var(--color-text-muted);
-              margin-bottom: 28px;
-            "
-          >
-            * Approximate minimum ultimate tensile strength for standard simplex
-            carbon-steel roller chain (ANSI B29.1 / ISO 606). Actual values
-            depend on grade, manufacturer and series (standard / heavy). Always
-            confirm with the supplied datasheet.
-          </p>
-
-          <div class="grid-3">
-            <article class="card">
-              <h3>Materials &amp; Options</h3>
-              <ul style="color: var(--color-text-muted); font-size: 0.95rem">
-                <li style="padding: 4px 0">• Carbon steel (standard)</li>
-                <li style="padding: 4px 0">
-                  • Heat-treated / high-strength grades
-                </li>
-                <li style="padding: 4px 0">
-                  • Stainless steel (corrosion / food areas)
-                </li>
-                <li style="padding: 4px 0">
-                  • Nickel-plated or coated options
-                </li>
-                <li style="padding: 4px 0">
-                  • Simplex, duplex &amp; multiplex strands
-                </li>
-              </ul>
-            </article>
-            <article class="card">
-              <h3>Special Purpose Conveyor Chains</h3>
-              <ul style="color: var(--color-text-muted); font-size: 0.95rem">
-                <li style="padding: 4px 0">
-                  • Custom pitch &amp; plate geometry
-                </li>
-                <li style="padding: 4px 0">
-                  • Attachment chains (A1, A2, K1, K2, etc.)
-                </li>
-                <li style="padding: 4px 0">
-                  • Extended pins / outboard rollers
-                </li>
-                <li style="padding: 4px 0">• Double-pitch conveyor series</li>
-                <li style="padding: 4px 0">
-                  • Built to process load &amp; speed data
-                </li>
-              </ul>
-            </article>
-            <article class="card">
-              <h3>Slat Band Chains</h3>
-              <ul style="color: var(--color-text-muted); font-size: 0.95rem">
-                <li style="padding: 4px 0">
-                  • Common widths: ~82.5 / 114 / 190 mm
-                </li>
-                <li style="padding: 4px 0">• Typical pitch: 25.4 mm (1")</li>
-                <li style="padding: 4px 0">
-                  • Steel or stainless steel top plates
-                </li>
-                <li style="padding: 4px 0">
-                  • Straight-running &amp; side-flex options
-                </li>
-                <li style="padding: 4px 0">
-                  • Suitable for accumulation &amp; packaging
-                </li>
-              </ul>
-            </article>
-          </div>
-
-          <div class="text-center" style="margin-top: 36px">
-            <p style="margin-bottom: 16px; color: var(--color-text-muted)">
-              Share your load, speed, centre distance and environment — we will
-              recommend the correct chain and attachments.
-            </p>
-            <a href="contact.html" class="btn btn-primary"
-              >Request Chain Datasheet / Quote</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <!-- Roller Conveyors -->
-      <section class="section bg-white">
-        <div class="container">
-          <h2 style="margin-bottom: 12px">Roller Conveyors &amp; Elevators</h2>
-          <p style="margin-bottom: 32px; max-width: 900px">
-            Customers can avail from us a wide range of Gravity Roller
-            Conveyors, Powered Roller Conveyors, Belt Type Bucket Elevators and
-            related material-handling solutions for industrial lines.
-          </p>
-          <div class="grid-3">
-            <article class="card has-img">
-              <img
-                class="product-img"
-                src="assets/images/logistics-conveyor.jpg"
-                width="400"
-                height="180"
-                alt="Gravity roller conveyor"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Gravity Roller Conveyors</h3>
-                <p>
-                  Cost-effective gravity roller conveyors for manual or
-                  incline-based product movement.
-                </p>
-                <a href="contact.html" class="card-link">Enquire →</a>
-              </div>
-            </article>
-            <article class="card has-img">
-              <img
-                class="product-img"
-                src="assets/images/conveyor-belt.jpg"
-                width="400"
-                height="180"
-                alt="Powered roller conveyor system"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Powered Roller Conveyors</h3>
-                <p>
-                  Motorized roller conveyor systems for controlled, efficient
-                  transport in automated lines.
-                </p>
-                <a href="contact.html" class="card-link">Enquire →</a>
-              </div>
-            </article>
-            <article class="card has-img">
-              <img
-                class="product-img"
-                src="assets/images/industrial-plant.jpg"
-                width="400"
-                height="180"
-                alt="Bucket elevator in industrial plant"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Belt Type Bucket Elevators</h3>
-                <p>
-                  Vertical belt bucket elevators for reliable elevation of bulk
-                  materials between process levels.
-                </p>
-                <a href="contact.html" class="card-link">Enquire →</a>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Vibratory Bowl Feeders -->
-      <section class="section">
-        <div class="container">
-          <div class="grid-2" style="align-items: center; gap: 40px">
-            <div>
-              <img
-                class="feature-img"
-                src="assets/images/machine-closeup.jpg"
-                width="560"
-                height="340"
-                alt="Precision industrial feeder and automation equipment"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <h2>Vibratory Bowl Feeders</h2>
-              <p>
-                Vibratory bowl feeders are a very common type of parts feeder,
-                and they are a critical part of an automated assembly system.
-                Vibratory bowl feeders move parts around a bowl and into
-                channels in a way that ensures they are perfectly aligned for
-                how the automation system needs them. They make sure parts are
-                continually being presented to the automation system, so that it
-                can perform as designed and maintain a high production rate.
-                Vibratory bowl feeders also reduce labour, because they require
-                very little human interaction.
-              </p>
-              <p>
-                We can develop vibratory bowl feeders from
-                <strong>6″ to 36″</strong> in diameter. For optimum efficiency,
-                we design and fabricate our bowl feeders simultaneously. Each
-                bowl is custom built to meet the customer’s exact specifications
-                regarding part configuration, feed rate and orientation.
-              </p>
-              <p>
-                To ensure the precise handling of almost any size and type of
-                part — whether small or large, delicate or heavy duty — every
-                SPM bowl feeder is designed and hand-crafted in-house using
-                11-gauge stainless steel. Type 304 stainless steel is standard,
-                while Type 316 stainless steel is used in medical applications.
-              </p>
-              <ul style="margin: 16px 0 24px; color: var(--color-text-muted)">
-                <li style="padding: 4px 0">
-                  • Hand-crafted in-house using 11-gauge stainless steel
-                </li>
-                <li style="padding: 4px 0">
-                  • Type 304 stainless steel standard
-                </li>
-                <li style="padding: 4px 0">
-                  • Type 316 stainless steel for medical applications
-                </li>
-                <li style="padding: 4px 0">
-                  • Suitable for small, large, delicate or heavy-duty parts
-                </li>
-              </ul>
-              <a href="contact.html" class="btn btn-primary">Request a Quote</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Automation -->
-      <section class="section" id="automation">
-        <div class="container">
-          <div class="section-header">
-            <h2>Automation</h2>
-            <p>
-              Industrial automation solutions that integrate conveyors, feeders,
-              controls and fabricated assemblies into reliable production
-              systems.
-            </p>
-          </div>
-          <div class="grid-3">
-            <a
-              href="contact.html"
-              class="card has-img"
-              style="
-                text-decoration: none;
-                color: inherit;
-                display: flex;
-                flex-direction: column;
-              "
-              aria-label="Enquire about Assembly Automation"
-            >
-              <img
-                class="product-img"
-                src="assets/images/factory-automation.jpg"
-                width="400"
-                height="180"
-                alt="Assembly automation system"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Assembly Automation</h3>
-                <p>
-                  Automated assembly support using vibratory feeders, conveyors
-                  and purpose-built fixtures for consistent output.
-                </p>
-                <span class="card-link">Enquire Now →</span>
-              </div>
-            </a>
-            <a
-              href="contact.html"
-              class="card has-img"
-              style="
-                text-decoration: none;
-                color: inherit;
-                display: flex;
-                flex-direction: column;
-              "
-              aria-label="Enquire about Process Automation"
-            >
-              <img
-                class="product-img"
-                src="assets/images/industrial-machine.jpg"
-                width="400"
-                height="180"
-                alt="Process automation equipment"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Process &amp; Line Automation</h3>
-                <p>
-                  Conveyor-based line automation for transfer, accumulation,
-                  elevation and paced movement between stations.
-                </p>
-                <span class="card-link">Enquire Now →</span>
-              </div>
-            </a>
-            <a
-              href="contact.html"
-              class="card has-img"
-              style="
-                text-decoration: none;
-                color: inherit;
-                display: flex;
-                flex-direction: column;
-              "
-              aria-label="Enquire about Custom SPM"
-            >
-              <img
-                class="product-img"
-                src="assets/images/machine-closeup.jpg"
-                width="400"
-                height="180"
-                alt="Special purpose machine close-up"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Special Purpose Machines (SPM)</h3>
-                <p>
-                  Custom SPM concepts integrating bowl feeders, chains,
-                  fabricated frames and controls for dedicated operations.
-                </p>
-                <span class="card-link">Enquire Now →</span>
-              </div>
-            </a>
-          </div>
-          <div class="text-center" style="margin-top: 32px">
-            <a href="services.html" class="btn btn-secondary"
-              >View Automation Services</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <!-- Metal Fabrication Processes -->
-      <section class="section" id="metal-fabrication">
-        <div class="container">
-          <div class="section-header">
-            <h2>Metal Fabrication</h2>
-            <p>
-              Metal fabrication covers processes that cut, shape, form and join
-              metal into finished industrial parts and assemblies. We support
-              fabrication needs from cutting and bending through welding and
-              assembly.
-            </p>
-          </div>
-
-          <div
-            class="grid-2"
-            style="align-items: center; gap: 40px; margin-bottom: 40px"
-          >
-            <div>
-              <img
-                src="assets/images/metal-fab-process.jpg"
-                width="560"
-                height="340"
-                alt="Metal fabrication workshop process"
-                class="feature-img"
-                loading="lazy"
-                style="
-                  width: 100%;
-                  max-height: 340px;
-                  object-fit: cover;
-                  border-radius: var(--radius);
-                  box-shadow: var(--shadow);
-                "
-              />
-            </div>
-            <div>
-              <h3 style="margin-bottom: 12px">What we cover</h3>
-              <p>
-                From flat material to finished assemblies, metal fabrication
-                typically includes cutting, forming, machining and joining. The
-                right mix depends on part geometry, material grade, volume and
-                end-use environment.
-              </p>
-              <p>
-                Our fabrication offering aligns with industrial needs for
-                frames, panels, guards, skids, brackets and custom structures
-                used with conveyors, feeders and automation systems.
-              </p>
-              <a
-                href="contact.html"
-                class="btn btn-primary"
-                style="margin-top: 8px"
-                >Enquire About Fabrication</a
-              >
-            </div>
-          </div>
-
-          <h3 style="margin-bottom: 20px; text-align: center">
-            Common Metal Fabrication Processes
-          </h3>
-          <div class="grid-3">
-            <a
-              href="contact.html"
-              class="card has-img"
-              style="
-                text-decoration: none;
-                color: inherit;
-                display: flex;
-                flex-direction: column;
-              "
-              aria-label="Enquire about metal cutting"
-            >
-              <img
-                class="product-img"
-                src="assets/images/metal-cutting.jpg"
-                width="400"
-                height="180"
-                alt="Metal cutting and laser processing"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Cutting</h3>
-                <p>
-                  Laser cutting, shearing and related cutting methods to split
-                  sheet and plate into accurate blanks and profiles.
-                </p>
-                <span class="card-link">Enquire Now →</span>
-              </div>
-            </a>
-            <a
-              href="contact.html"
-              class="card has-img"
-              style="
-                text-decoration: none;
-                color: inherit;
-                display: flex;
-                flex-direction: column;
-              "
-              aria-label="Enquire about forming and bending"
-            >
-              <img
-                class="product-img"
-                src="assets/images/cnc-metal.jpg"
-                width="400"
-                height="180"
-                alt="Metal forming and bending equipment"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Forming &amp; Bending</h3>
-                <p>
-                  Folding, bending, punching and stamping operations to shape
-                  flat material into channels, brackets and formed parts.
-                </p>
-                <span class="card-link">Enquire Now →</span>
-              </div>
-            </a>
-            <a
-              href="contact.html"
-              class="card has-img"
-              style="
-                text-decoration: none;
-                color: inherit;
-                display: flex;
-                flex-direction: column;
-              "
-              aria-label="Enquire about welding and joining"
-            >
-              <img
-                class="product-img"
-                src="assets/images/metal-welding-work.jpg"
-                width="400"
-                height="180"
-                alt="Welding and metal joining work"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Welding &amp; Joining</h3>
-                <p>
-                  Welded assemblies and mechanical joining for frames, supports,
-                  guards and structural fabrications.
-                </p>
-                <span class="card-link">Enquire Now →</span>
-              </div>
-            </a>
-            <a
-              href="contact.html"
-              class="card has-img"
-              style="
-                text-decoration: none;
-                color: inherit;
-                display: flex;
-                flex-direction: column;
-              "
-              aria-label="Enquire about machining"
-            >
-              <img
-                class="product-img"
-                src="assets/images/machine-closeup.jpg"
-                width="400"
-                height="180"
-                alt="Machining of metal components"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Machining</h3>
-                <p>
-                  Material removal operations for holes, slots, surfaces and
-                  precision features on fabricated components.
-                </p>
-                <span class="card-link">Enquire Now →</span>
-              </div>
-            </a>
-            <a
-              href="contact.html"
-              class="card has-img"
-              style="
-                text-decoration: none;
-                color: inherit;
-                display: flex;
-                flex-direction: column;
-              "
-              aria-label="Enquire about forging and heavy forming"
-            >
-              <img
-                class="product-img"
-                src="assets/images/welding-metal.jpg"
-                width="400"
-                height="180"
-                alt="Heavy metal forming and fabrication"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Forging &amp; Heavy Forming</h3>
-                <p>
-                  Where strength and grain structure matter, heavier forming
-                  methods support demanding industrial parts.
-                </p>
-                <span class="card-link">Enquire Now →</span>
-              </div>
-            </a>
-            <a
-              href="contact.html"
-              class="card has-img"
-              style="
-                text-decoration: none;
-                color: inherit;
-                display: flex;
-                flex-direction: column;
-              "
-              aria-label="Enquire about assembly and finishing"
-            >
-              <img
-                class="product-img"
-                src="assets/images/industrial-plant.jpg"
-                width="400"
-                height="180"
-                alt="Fabricated assembly and finishing"
-                loading="lazy"
-              />
-              <div class="card-body">
-                <h3>Assembly &amp; Finishing</h3>
-                <p>
-                  Fit-up, assembly, surface preparation and finishing so parts
-                  are ready for installation or further integration.
-                </p>
-                <span class="card-link">Enquire Now →</span>
-              </div>
-            </a>
-          </div>
-
-          <div class="card" style="margin-top: 32px; padding: 24px">
-            <h3 style="margin-bottom: 12px">Process overview</h3>
-            <ul style="color: var(--color-text-muted); columns: 1">
-              <li style="padding: 4px 0">
-                <strong>Casting</strong> — molten metal poured into a mold and
-                solidified into shape
-              </li>
-              <li style="padding: 4px 0">
-                <strong>Cutting</strong> — laser, shear, saw and related methods
-                to size material
-              </li>
-              <li style="padding: 4px 0">
-                <strong>Drawing / Extrusion</strong> — forcing metal through a
-                die for profiles and shapes
-              </li>
-              <li style="padding: 4px 0">
-                <strong>Folding / Bending</strong> — forming angles and contours
-                in sheet and plate
-              </li>
-              <li style="padding: 4px 0">
-                <strong>Forging</strong> — shaping metal using localized
-                compressive force
-              </li>
-              <li style="padding: 4px 0">
-                <strong>Machining</strong> — controlled material removal for
-                accurate features
-              </li>
-              <li style="padding: 4px 0">
-                <strong>Punching / Shearing / Stamping</strong> — high-volume
-                sheet processes
-              </li>
-              <li style="padding: 4px 0">
-                <strong>Welding</strong> — permanent joining of metal parts into
-                assemblies
-              </li>
-            </ul>
-            <p
-              style="
-                margin-top: 12px;
-                font-size: 0.9rem;
-                color: var(--color-text-muted);
-              "
-            >
-              Process selection depends on geometry, material, quantity and
-              performance requirements. Share your drawings for a practical
-              recommendation.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="cta-band">
-        <div class="container">
-          <h2>Need a Custom Solution?</h2>
-          <p>
-            Tell us about your application. We can design and supply products
-            tailored to your exact requirements.
-          </p>
-          <a href="contact.html" class="btn btn-primary">Contact Us Today</a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
+  <main id="main-content">
+    <section class="page-hero">
       <div class="container">
-        <div class="footer-grid">
-          <div class="footer-brand">
-            <a href="index.html" class="logo"
-              ><span class="logo-mark" aria-hidden="true">∞</span
-              ><span>Infinity Automation</span></a
-            >
-            <p>
-              Engineering Industrial Excellence. Delivering Intelligent Digital
-              Solutions.
-            </p>
-          </div>
-          <div class="footer-col">
-            <h4>Quick Links</h4>
-            <a href="about.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="products.html">Products</a>
-            <a href="contact.html">Contact</a>
-          </div>
-          <div class="footer-col">
-            <h4>Products</h4>
-            <a href="products.html">Conveyor Chains</a>
-            <a href="products.html">Bowl Feeders</a>
-            <a href="products.html#metal-fabrication">Metal Fabrication</a>
-          </div>
-          <div class="footer-col">
-            <h4>Contact</h4>
-            <div class="footer-contact-item">
-              <span aria-hidden="true">📞</span><span>+91 74476 34840</span>
-            </div>
-            <div class="footer-contact-item">
-              <span aria-hidden="true">📞</span><span>+91 95618 72004</span>
-            </div>
-            <div class="footer-contact-item">
-              <span aria-hidden="true">✉️</span
-              ><span>info@infinityautomationeng.com</span>
-            </div>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <span
-            >&copy; 2023 Infinity Automation &amp; Engineering. All rights
-            reserved.</span
-          >
-          <span
-            ><a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
-            <a href="terms.html">Terms of Service</a></span
-          >
+        <h1>Our Products</h1>
+        <p>Automation, Conveyor System, Vibrator Bowl Feeder &amp; Fabrication — manufacturing, exporting and wholesaling industrial material-handling products.</p>
+      </div>
+    </section>
+
+    <section class="section bg-white">
+      <div class="container">
+        <div class="section-header">
+          <h2>Product Range</h2>
+          <p>Automation, Conveyor System, Vibrator Bowl Feeder &amp; Fabrication — we are involved in manufacturing, exporting and wholesaling a wide array of industrial products. Our range is manufactured using excellent quality raw material in compliance with international quality standards, and is acknowledged for sturdy construction, optimum performance and resistance against corrosion.</p>
         </div>
       </div>
-    </footer>
-    <script src="assets/js/main.js" defer></script>
-  </body>
+    </section>
+
+    <section class="section" style="padding-top:0;padding-bottom:24px;">
+      <div class="container">
+        <div class="grid-4">
+          <a href="#chain-specs" class="card text-center" style="text-decoration:none;color:inherit;padding:20px;">
+            <div class="card-icon" style="margin:0 auto 10px;"><span class="icon-emoji">🔗</span></div>
+            <h3 style="font-size:1rem;">Conveyor Chains</h3>
+          </a>
+          <a href="#automation" class="card text-center" style="text-decoration:none;color:inherit;padding:20px;">
+            <div class="card-icon" style="margin:0 auto 10px;"><span class="icon-emoji">⚙️</span></div>
+            <h3 style="font-size:1rem;">Automation</h3>
+          </a>
+          <a href="contact.html" class="card text-center" style="text-decoration:none;color:inherit;padding:20px;">
+            <div class="card-icon" style="margin:0 auto 10px;"><span class="icon-emoji">🥣</span></div>
+            <h3 style="font-size:1rem;">Bowl Feeders</h3>
+          </a>
+          <a href="#metal-fabrication" class="card text-center" style="text-decoration:none;color:inherit;padding:20px;">
+            <div class="card-icon" style="margin:0 auto 10px;"><span class="icon-emoji">🏭</span></div>
+            <h3 style="font-size:1rem;">Metal Fabrication</h3>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Conveyor Chains & Belts -->
+    <section class="section">
+      <div class="container">
+        <h2 style="margin-bottom:12px;">Conveyor System</h2>
+        <p style="margin-bottom:32px;max-width:900px;">We are involved in the business of manufacturing, exporting and wholesaling a wide array of conveyor products. The range offered by us encompasses Standardized Precision Roller Chains, Designed Special Purpose Conveyor Chain, Slat Band Chains, Flat Belt Conveyor, Trough Conveyors and Flat Food Belts. In addition, customers can avail from us a wide range of Gravity Roller Conveyor, Powered Roller Conveyors, Belt Type Bucket Elevator and many more. These products are manufactured using excellent quality raw material in compliance with international quality standards, and are acknowledged for sturdy construction, optimum performance and resistance against corrosion.</p>
+        <div class="grid-3">
+          <article class="card has-img">
+            <img class="product-img" src="assets/images/conveyor-belt.jpg" width="400" height="180" alt="Industrial conveyor belt system" loading="lazy">
+            <div class="card-body">
+              <h3>Standardized Precision Roller Chains</h3>
+              <p>High-quality precision roller chains designed for consistent performance and long service life in demanding applications.</p>
+              <a href="contact.html" class="card-link">Enquire →</a>
+            </div>
+          </article>
+          <article class="card has-img">
+            <img class="product-img" src="assets/images/factory-automation.jpg" width="400" height="180" alt="Factory automation equipment" loading="lazy">
+            <div class="card-body">
+              <h3>Special Purpose Conveyor Chains</h3>
+              <p>Custom-designed conveyor chains built for specific process requirements and operating conditions.</p>
+              <a href="contact.html" class="card-link">Enquire →</a>
+            </div>
+          </article>
+          <article class="card has-img">
+            <img class="product-img" src="assets/images/logistics-conveyor.jpg" width="400" height="180" alt="Logistics conveyor system" loading="lazy">
+            <div class="card-body">
+              <h3>Slat Band Chains</h3>
+              <p>Durable slat band chains suitable for a wide range of conveying and accumulation applications.</p>
+              <a href="contact.html" class="card-link">Enquire →</a>
+            </div>
+          </article>
+          <article class="card has-img">
+            <img class="product-img" src="assets/images/warehouse-conveyor.jpg" width="400" height="180" alt="Warehouse flat belt conveyor" loading="lazy">
+            <div class="card-body">
+              <h3>Flat Belt Conveyors</h3>
+              <p>Versatile flat belt conveyor systems for smooth product transfer across production lines.</p>
+              <a href="contact.html" class="card-link">Enquire →</a>
+            </div>
+          </article>
+          <article class="card has-img">
+            <img class="product-img" src="assets/images/industrial-machine.jpg" width="400" height="180" alt="Industrial material handling machine" loading="lazy">
+            <div class="card-body">
+              <h3>Trough Conveyors</h3>
+              <p>Trough belt conveyors engineered for bulk material handling with reliable containment and flow.</p>
+              <a href="contact.html" class="card-link">Enquire →</a>
+            </div>
+          </article>
+          <article class="card has-img">
+            <img class="product-img" src="assets/images/factory-floor.jpg" width="400" height="180" alt="Food processing conveyor line" loading="lazy">
+            <div class="card-body">
+              <h3>Flat Food Belts</h3>
+              <p>Food-grade flat belts designed for hygienic conveying in food and beverage processing environments.</p>
+              <a href="contact.html" class="card-link">Enquire →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Conveyor Chain Specifications -->
+    <section class="section bg-white" id="chain-specs">
+      <div class="container">
+        <div class="section-header">
+          <h2>Conveyor Chain Specifications</h2>
+          <p>Standardized precision roller chains are supplied to common industry standards. Special-purpose and slat-band chains are engineered to application requirements. Final selection depends on load, speed, environment and attachment needs — contact us for exact datasheets.</p>
+        </div>
+
+        <h3 style="margin-bottom:16px;">Precision Roller Chains (Typical ANSI / ISO sizes)</h3>
+        <div style="overflow-x:auto;margin-bottom:32px;">
+          <table style="width:100%;border-collapse:collapse;font-size:0.9rem;min-width:640px;">
+            <thead>
+              <tr style="background:#0B3C5D;color:#fff;">
+                <th style="padding:12px 10px;text-align:left;">Chain No.</th>
+                <th style="padding:12px 10px;text-align:left;">Pitch</th>
+                <th style="padding:12px 10px;text-align:left;">Roller Dia.</th>
+                <th style="padding:12px 10px;text-align:left;">Inner Width</th>
+                <th style="padding:12px 10px;text-align:left;">Pin Dia.</th>
+                <th style="padding:12px 10px;text-align:left;">Min. Tensile Strength*</th>
+                <th style="padding:12px 10px;text-align:left;">Typical Use</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom:1px solid #E1E5EB;">
+                <td style="padding:10px;">40 / 08A</td>
+                <td style="padding:10px;">12.70 mm (0.500")</td>
+                <td style="padding:10px;">7.95 mm</td>
+                <td style="padding:10px;">7.85 mm</td>
+                <td style="padding:10px;">3.96 mm</td>
+                <td style="padding:10px;">≈ 14 kN (3,100 lbf)</td>
+                <td style="padding:10px;">Light conveyors, packaging</td>
+              </tr>
+              <tr style="border-bottom:1px solid #E1E5EB;background:#F5F7FA;">
+                <td style="padding:10px;">50 / 10A</td>
+                <td style="padding:10px;">15.875 mm (0.625")</td>
+                <td style="padding:10px;">10.16 mm</td>
+                <td style="padding:10px;">9.40 mm</td>
+                <td style="padding:10px;">5.08 mm</td>
+                <td style="padding:10px;">≈ 22 kN (4,900 lbf)</td>
+                <td style="padding:10px;">General industrial conveyors</td>
+              </tr>
+              <tr style="border-bottom:1px solid #E1E5EB;">
+                <td style="padding:10px;">60 / 12A</td>
+                <td style="padding:10px;">19.05 mm (0.750")</td>
+                <td style="padding:10px;">11.91 mm</td>
+                <td style="padding:10px;">12.57 mm</td>
+                <td style="padding:10px;">5.94 mm</td>
+                <td style="padding:10px;">≈ 31 kN (7,000 lbf)</td>
+                <td style="padding:10px;">Heavier conveyors, elevators</td>
+              </tr>
+              <tr style="border-bottom:1px solid #E1E5EB;background:#F5F7FA;">
+                <td style="padding:10px;">80 / 16A</td>
+                <td style="padding:10px;">25.40 mm (1.000")</td>
+                <td style="padding:10px;">15.88 mm</td>
+                <td style="padding:10px;">15.75 mm</td>
+                <td style="padding:10px;">7.92 mm</td>
+                <td style="padding:10px;">≈ 56 kN (12,500 lbf)</td>
+                <td style="padding:10px;">Heavy-duty conveying</td>
+              </tr>
+              <tr style="border-bottom:1px solid #E1E5EB;">
+                <td style="padding:10px;">100 / 20A</td>
+                <td style="padding:10px;">31.75 mm (1.250")</td>
+                <td style="padding:10px;">19.05 mm</td>
+                <td style="padding:10px;">18.90 mm</td>
+                <td style="padding:10px;">9.53 mm</td>
+                <td style="padding:10px;">≈ 87 kN (19,500 lbf)</td>
+                <td style="padding:10px;">High-load industrial lines</td>
+              </tr>
+              <tr style="background:#F5F7FA;">
+                <td style="padding:10px;">120 / 24A</td>
+                <td style="padding:10px;">38.10 mm (1.500")</td>
+                <td style="padding:10px;">22.23 mm</td>
+                <td style="padding:10px;">25.22 mm</td>
+                <td style="padding:10px;">11.10 mm</td>
+                <td style="padding:10px;">≈ 125 kN (28,100 lbf)</td>
+                <td style="padding:10px;">Very heavy conveying</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="font-size:0.85rem;color:var(--color-text-muted);margin-bottom:28px;">* Approximate minimum ultimate tensile strength for standard simplex carbon-steel roller chain (ANSI B29.1 / ISO 606). Actual values depend on grade, manufacturer and series (standard / heavy). Always confirm with the supplied datasheet.</p>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Materials &amp; Options</h3>
+            <ul style="color:var(--color-text-muted);font-size:0.95rem;">
+              <li style="padding:4px 0;">• Carbon steel (standard)</li>
+              <li style="padding:4px 0;">• Heat-treated / high-strength grades</li>
+              <li style="padding:4px 0;">• Stainless steel (corrosion / food areas)</li>
+              <li style="padding:4px 0;">• Nickel-plated or coated options</li>
+              <li style="padding:4px 0;">• Simplex, duplex &amp; multiplex strands</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Special Purpose Conveyor Chains</h3>
+            <ul style="color:var(--color-text-muted);font-size:0.95rem;">
+              <li style="padding:4px 0;">• Custom pitch &amp; plate geometry</li>
+              <li style="padding:4px 0;">• Attachment chains (A1, A2, K1, K2, etc.)</li>
+              <li style="padding:4px 0;">• Extended pins / outboard rollers</li>
+              <li style="padding:4px 0;">• Double-pitch conveyor series</li>
+              <li style="padding:4px 0;">• Built to process load &amp; speed data</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Slat Band Chains</h3>
+            <ul style="color:var(--color-text-muted);font-size:0.95rem;">
+              <li style="padding:4px 0;">• Common widths: ~82.5 / 114 / 190 mm</li>
+              <li style="padding:4px 0;">• Typical pitch: 25.4 mm (1")</li>
+              <li style="padding:4px 0;">• Steel or stainless steel top plates</li>
+              <li style="padding:4px 0;">• Straight-running &amp; side-flex options</li>
+              <li style="padding:4px 0;">• Suitable for accumulation &amp; packaging</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="text-center" style="margin-top:36px;">
+          <p style="margin-bottom:16px;color:var(--color-text-muted);">Share your load, speed, centre distance and environment — we will recommend the correct chain and attachments.</p>
+          <a href="contact.html" class="btn btn-primary">Request Chain Datasheet / Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roller Conveyors -->
+    <section class="section bg-white">
+      <div class="container">
+        <h2 style="margin-bottom:12px;">Roller Conveyors &amp; Elevators</h2>
+        <p style="margin-bottom:32px;max-width:900px;">Customers can avail from us a wide range of Gravity Roller Conveyors, Powered Roller Conveyors, Belt Type Bucket Elevators and related material-handling solutions for industrial lines.</p>
+        <div class="grid-3">
+          <article class="card has-img">
+            <img class="product-img" src="assets/images/logistics-conveyor.jpg" width="400" height="180" alt="Gravity roller conveyor" loading="lazy">
+            <div class="card-body">
+              <h3>Gravity Roller Conveyors</h3>
+              <p>Cost-effective gravity roller conveyors for manual or incline-based product movement.</p>
+              <a href="contact.html" class="card-link">Enquire →</a>
+            </div>
+          </article>
+          <article class="card has-img">
+            <img class="product-img" src="assets/images/conveyor-belt.jpg" width="400" height="180" alt="Powered roller conveyor system" loading="lazy">
+            <div class="card-body">
+              <h3>Powered Roller Conveyors</h3>
+              <p>Motorized roller conveyor systems for controlled, efficient transport in automated lines.</p>
+              <a href="contact.html" class="card-link">Enquire →</a>
+            </div>
+          </article>
+          <article class="card has-img">
+            <img class="product-img" src="assets/images/industrial-plant.jpg" width="400" height="180" alt="Bucket elevator in industrial plant" loading="lazy">
+            <div class="card-body">
+              <h3>Belt Type Bucket Elevators</h3>
+              <p>Vertical belt bucket elevators for reliable elevation of bulk materials between process levels.</p>
+              <a href="contact.html" class="card-link">Enquire →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vibratory Bowl Feeders -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-2" style="align-items:center;gap:40px;">
+          <div>
+            <img class="feature-img" src="assets/images/machine-closeup.jpg" width="560" height="340" alt="Precision industrial feeder and automation equipment" loading="lazy">
+          </div>
+          <div>
+            <h2>Vibratory Bowl Feeders</h2>
+            <p>Vibratory bowl feeders are a very common type of parts feeder, and they are a critical part of an automated assembly system. Vibratory bowl feeders move parts around a bowl and into channels in a way that ensures they are perfectly aligned for how the automation system needs them. They make sure parts are continually being presented to the automation system, so that it can perform as designed and maintain a high production rate. Vibratory bowl feeders also reduce labour, because they require very little human interaction.</p>
+            <p>We can develop vibratory bowl feeders from <strong>6″ to 36″</strong> in diameter. For optimum efficiency, we design and fabricate our bowl feeders simultaneously. Each bowl is custom built to meet the customer’s exact specifications regarding part configuration, feed rate and orientation.</p>
+            <p>To ensure the precise handling of almost any size and type of part — whether small or large, delicate or heavy duty — every SPM bowl feeder is designed and hand-crafted in-house using 11-gauge stainless steel. Type 304 stainless steel is standard, while Type 316 stainless steel is used in medical applications.</p>
+            <ul style="margin:16px 0 24px;color:var(--color-text-muted);">
+              <li style="padding:4px 0;">• Hand-crafted in-house using 11-gauge stainless steel</li>
+              <li style="padding:4px 0;">• Type 304 stainless steel standard</li>
+              <li style="padding:4px 0;">• Type 316 stainless steel for medical applications</li>
+              <li style="padding:4px 0;">• Suitable for small, large, delicate or heavy-duty parts</li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary">Request a Quote</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Automation -->
+    <section class="section" id="automation">
+      <div class="container">
+        <div class="section-header">
+          <h2>Automation</h2>
+          <p>Industrial automation solutions that integrate conveyors, feeders, controls and fabricated assemblies into reliable production systems.</p>
+        </div>
+        <div class="grid-3">
+          <a href="contact.html" class="card has-img" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;" aria-label="Enquire about Assembly Automation">
+            <img class="product-img" src="assets/images/factory-automation.jpg" width="400" height="180" alt="Assembly automation system" loading="lazy">
+            <div class="card-body">
+              <h3>Assembly Automation</h3>
+              <p>Automated assembly support using vibratory feeders, conveyors and purpose-built fixtures for consistent output.</p>
+              <span class="card-link">Enquire Now →</span>
+            </div>
+          </a>
+          <a href="contact.html" class="card has-img" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;" aria-label="Enquire about Process Automation">
+            <img class="product-img" src="assets/images/industrial-machine.jpg" width="400" height="180" alt="Process automation equipment" loading="lazy">
+            <div class="card-body">
+              <h3>Process &amp; Line Automation</h3>
+              <p>Conveyor-based line automation for transfer, accumulation, elevation and paced movement between stations.</p>
+              <span class="card-link">Enquire Now →</span>
+            </div>
+          </a>
+          <a href="contact.html" class="card has-img" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;" aria-label="Enquire about Custom SPM">
+            <img class="product-img" src="assets/images/machine-closeup.jpg" width="400" height="180" alt="Special purpose machine close-up" loading="lazy">
+            <div class="card-body">
+              <h3>Special Purpose Machines (SPM)</h3>
+              <p>Custom SPM concepts integrating bowl feeders, chains, fabricated frames and controls for dedicated operations.</p>
+              <span class="card-link">Enquire Now →</span>
+            </div>
+          </a>
+        </div>
+        <div class="text-center" style="margin-top:32px;">
+          <a href="services.html" class="btn btn-secondary">View Automation Services</a>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Metal Fabrication Processes -->
+    <section class="section" id="metal-fabrication">
+      <div class="container">
+        <div class="section-header">
+          <h2>Metal Fabrication</h2>
+          <p>Metal fabrication covers processes that cut, shape, form and join metal into finished industrial parts and assemblies. We support fabrication needs from cutting and bending through welding and assembly.</p>
+        </div>
+
+        <div class="grid-2" style="align-items:center;gap:40px;margin-bottom:40px;">
+          <div>
+            <img src="assets/images/metal-fab-process.jpg" width="560" height="340" alt="Metal fabrication workshop process" class="feature-img" loading="lazy" style="width:100%;max-height:340px;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow);">
+          </div>
+          <div>
+            <h3 style="margin-bottom:12px;">What we cover</h3>
+            <p>From flat material to finished assemblies, metal fabrication typically includes cutting, forming, machining and joining. The right mix depends on part geometry, material grade, volume and end-use environment.</p>
+            <p>Our fabrication offering aligns with industrial needs for frames, panels, guards, skids, brackets and custom structures used with conveyors, feeders and automation systems.</p>
+            <a href="contact.html" class="btn btn-primary" style="margin-top:8px;">Enquire About Fabrication</a>
+          </div>
+        </div>
+
+        <h3 style="margin-bottom:20px;text-align:center;">Common Metal Fabrication Processes</h3>
+        <div class="grid-3">
+          <a href="contact.html" class="card has-img" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;" aria-label="Enquire about metal cutting">
+            <img class="product-img" src="assets/images/metal-cutting.jpg" width="400" height="180" alt="Metal cutting and laser processing" loading="lazy">
+            <div class="card-body">
+              <h3>Cutting</h3>
+              <p>Laser cutting, shearing and related cutting methods to split sheet and plate into accurate blanks and profiles.</p>
+              <span class="card-link">Enquire Now →</span>
+            </div>
+          </a>
+          <a href="contact.html" class="card has-img" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;" aria-label="Enquire about forming and bending">
+            <img class="product-img" src="assets/images/cnc-metal.jpg" width="400" height="180" alt="Metal forming and bending equipment" loading="lazy">
+            <div class="card-body">
+              <h3>Forming &amp; Bending</h3>
+              <p>Folding, bending, punching and stamping operations to shape flat material into channels, brackets and formed parts.</p>
+              <span class="card-link">Enquire Now →</span>
+            </div>
+          </a>
+          <a href="contact.html" class="card has-img" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;" aria-label="Enquire about welding and joining">
+            <img class="product-img" src="assets/images/metal-welding-work.jpg" width="400" height="180" alt="Welding and metal joining work" loading="lazy">
+            <div class="card-body">
+              <h3>Welding &amp; Joining</h3>
+              <p>Welded assemblies and mechanical joining for frames, supports, guards and structural fabrications.</p>
+              <span class="card-link">Enquire Now →</span>
+            </div>
+          </a>
+          <a href="contact.html" class="card has-img" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;" aria-label="Enquire about machining">
+            <img class="product-img" src="assets/images/machine-closeup.jpg" width="400" height="180" alt="Machining of metal components" loading="lazy">
+            <div class="card-body">
+              <h3>Machining</h3>
+              <p>Material removal operations for holes, slots, surfaces and precision features on fabricated components.</p>
+              <span class="card-link">Enquire Now →</span>
+            </div>
+          </a>
+          <a href="contact.html" class="card has-img" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;" aria-label="Enquire about forging and heavy forming">
+            <img class="product-img" src="assets/images/welding-metal.jpg" width="400" height="180" alt="Heavy metal forming and fabrication" loading="lazy">
+            <div class="card-body">
+              <h3>Forging &amp; Heavy Forming</h3>
+              <p>Where strength and grain structure matter, heavier forming methods support demanding industrial parts.</p>
+              <span class="card-link">Enquire Now →</span>
+            </div>
+          </a>
+          <a href="contact.html" class="card has-img" style="text-decoration:none;color:inherit;display:flex;flex-direction:column;" aria-label="Enquire about assembly and finishing">
+            <img class="product-img" src="assets/images/industrial-plant.jpg" width="400" height="180" alt="Fabricated assembly and finishing" loading="lazy">
+            <div class="card-body">
+              <h3>Assembly &amp; Finishing</h3>
+              <p>Fit-up, assembly, surface preparation and finishing so parts are ready for installation or further integration.</p>
+              <span class="card-link">Enquire Now →</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="card" style="margin-top:32px;padding:24px;">
+          <h3 style="margin-bottom:12px;">Process overview</h3>
+          <ul style="color:var(--color-text-muted);columns:1;">
+            <li style="padding:4px 0;"><strong>Casting</strong> — molten metal poured into a mold and solidified into shape</li>
+            <li style="padding:4px 0;"><strong>Cutting</strong> — laser, shear, saw and related methods to size material</li>
+            <li style="padding:4px 0;"><strong>Drawing / Extrusion</strong> — forcing metal through a die for profiles and shapes</li>
+            <li style="padding:4px 0;"><strong>Folding / Bending</strong> — forming angles and contours in sheet and plate</li>
+            <li style="padding:4px 0;"><strong>Forging</strong> — shaping metal using localized compressive force</li>
+            <li style="padding:4px 0;"><strong>Machining</strong> — controlled material removal for accurate features</li>
+            <li style="padding:4px 0;"><strong>Punching / Shearing / Stamping</strong> — high-volume sheet processes</li>
+            <li style="padding:4px 0;"><strong>Welding</strong> — permanent joining of metal parts into assemblies</li>
+          </ul>
+          <p style="margin-top:12px;font-size:0.9rem;color:var(--color-text-muted);">Process selection depends on geometry, material, quantity and performance requirements. Share your drawings for a practical recommendation.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="cta-band">
+      <div class="container">
+        <h2>Need a Custom Solution?</h2>
+        <p>Tell us about your application. We can design and supply products tailored to your exact requirements.</p>
+        <a href="contact.html" class="btn btn-primary">Contact Us Today</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><span class="logo-mark" aria-hidden="true">∞</span><span>Infinity Automation & Engineering</span></a>
+          <p>Engineering Industrial Excellence. Delivering Intelligent Digital Solutions.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <a href="products.html">Conveyor Chains</a>
+          <a href="products.html">Bowl Feeders</a>
+          <a href="products.html#metal-fabrication">Metal Fabrication</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-item"><span aria-hidden="true">📞</span><span>+91 74476 34840</span></div>
+          <div class="footer-contact-item"><span aria-hidden="true">📞</span><span>+91 95618 72004</span></div>
+          <div class="footer-contact-item"><span aria-hidden="true">✉️</span><span>info@infinityautomationeng.com</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2023 Infinity Automation &amp; Engineering. All rights reserved.</span>
+        <span><a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms.html">Terms of Service</a></span>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js" defer></script>
+</body>
 </html>
