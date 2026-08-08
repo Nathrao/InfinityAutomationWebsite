@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.infinityautomation.example.com/</loc><priority>1.0</priority></url>
-  <url><loc>https://www.infinityautomation.example.com/about.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.infinityautomation.example.com/services.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.infinityautomation.example.com/products.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.infinityautomation.example.com/software.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.infinityautomation.example.com/industries.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.infinityautomation.example.com/careers.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.infinityautomation.example.com/contact.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.infinityautomation.example.com/privacy-policy.html</loc><priority>0.3</priority></url>
-  <url><loc>https://www.infinityautomation.example.com/terms.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.infinityautomationeng.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://www.infinityautomationeng.com/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.infinityautomationeng.com/services.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.infinityautomationeng.com/products.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.infinityautomationeng.com/software.html</loc><priority>0.8</priority></url>
+  <url><loc>https://www.infinityautomationeng.com/industries.html</loc><priority>0.7</priority></url>
+  <url><loc>https://www.infinityautomationeng.com/careers.html</loc><priority>0.6</priority></url>
+  <url><loc>https://www.infinityautomationeng.com/contact.html</loc><priority>0.9</priority></url>
+  <url><loc>https://www.infinityautomationeng.com/privacy-policy.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.infinityautomationeng.com/terms.html</loc><priority>0.3</priority></url>
 </urlset>

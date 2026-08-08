@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.infinityautomation.example.com/sitemap.xml
+Sitemap: https://www.infinityautomationeng.com/sitemap.xml
