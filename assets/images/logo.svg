@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 100" role="img" aria-label="Infinity Automation and Engineering">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B3C5D"/>
+      <stop offset="100%" stop-color="#082C45"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="18" width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path fill="#ffffff" d="M10 50c0-7.7 6.3-14 14-14 3.7 0 7.1 1.4 9.6 3.8l-3.2 3.5c-1.6-1.5-3.9-2.5-6.4-2.5-5 0-9 4-9 9s4 9 9 9c2.5 0 4.7-.9 6.4-2.5l3.2 3.5C31.1 62.5 27.7 64 24 64c-7.7 0-14-6.3-14-14z"/>
+  <path fill="#F39C12" d="M22.4 39.8c2.5-2.4 5.9-3.8 9.6-3.8 7.7 0 14 6.3 14 14s-6.3 14-14 14c-3.7 0-7.1-1.5-9.6-3.9l3.2-3.5c1.6 1.5 3.9 2.5 6.4 2.5 5 0 9-4 9-9s-4-9-9-9c-2.5 0-4.8 1-6.4 2.5l-3.2-3.5z"/>
+  <circle cx="24" cy="50" r="5" fill="#0B3C5D"/><circle cx="24" cy="50" r="2.5" fill="#fff"/>
+  <circle cx="36" cy="50" r="5" fill="#E08E0B"/><circle cx="36" cy="50" r="2.5" fill="#fff"/>
+  <text x="78" y="58" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0B3C5D">Infinity Automation &amp; Engineering</text>
+</svg>

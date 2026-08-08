@@ -222,7 +222,7 @@
         setLoading(false);
         showStatus(
           'error',
-          'We could not confirm delivery. Please check your internet connection and try again, or email us directly at info@infinityautomationeng.com.'
+          'We could not confirm delivery. Please check your internet connection and try again, or email us directly at info@infinityautomationandengg.com.'
         );
         formSubmitting = false;
       }, 12000);
